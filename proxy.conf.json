@@ -1,0 +1,12 @@
+{ "/proxy/*":
+    {
+      "target" : "http://exapi.somee.com",
+      "secure" : false,
+      "changeOrigin" : true,
+      "pathRewrite" : 
+      {
+        "^/proxy": "/api"
+      }
+    }
+}
+ 
